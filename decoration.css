@@ -1,0 +1,184 @@
+*
+body{
+    margin: 0;
+    padding: 0;
+	border: 0;
+	overflow-x: hidden;
+}
+/* header*/
+.main-nav
+{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding-left: 50px;
+    padding-right: 30px; 
+    height: 80px;  
+}
+
+.links{
+    display: inline;
+    padding-left: 50px;
+}
+
+.main-nav li
+{
+    margin-top: 10px; 
+}
+
+.main-nav li a
+{
+    color: grey;
+    text-decoration: none;
+    padding: 10px 10px;    
+}
+
+.main-nav li.active a
+{
+    text-underline-position: below;
+}
+
+.main-nav li a:hover
+{
+    color: #cf925f;
+    font-weight: bold;
+    transition: 0.4px;
+}
+
+header{
+	/* background: red; */
+	background: linear-gradient(to left,#b5651d, white, #b5651d);
+}
+
+.body{
+	background-color: gray;
+	width: 100%;
+
+}
+.container{
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.tagline{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    padding-top: 20px;
+    margin-left: 25px;
+}
+.pic1{
+    margin-left: 25px;
+    position: relative;
+}
+.box{
+    top: 100px;
+    margin-left: 450px;
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    opacity: 0.75;
+    
+}
+
+.card{
+    float: left;
+    width: 23%;
+    box-shadow: 3px 8px 1px 1px rgba(2, 3, 3, 0.6);
+	margin: 10px;
+	height: 450px;
+	background: white;
+}
+
+/* price tag */
+.pricetag{
+	white-space:nowrap;
+	position:relative;
+	margin:0 5px 0 10px;
+	displaY:inline-block;
+	height:25px;
+	border-radius: 0 5px 5px 0;
+	padding: 0 25px 0 15px;
+	background:#6a2500;
+	border: 0 solid #6a2500;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	color:#fff;
+	line-height:23px;
+}
+.pricetag:after{
+	position:absolute;
+	right:0;
+	margin:1px 7px;
+	font-weight:bold;
+	font-size:19px;
+	content:"\00D7";
+}
+.pricetag:before{
+	position:absolute;
+	content:"\25CF";
+	color:#ffffff;
+	text-shadow: 0 0 1px #333;
+	font-size:11px;
+	line-height:0px;
+	text-indent:12px;
+	left:-15px;
+	width: 1px;
+	height:0px;
+	border-right:14px solid #6a2500;
+	border-top:  13px solid transparent;
+	border-bottom:  13px solid transparent;
+}
+
+.infotag{
+	position:relative;
+	height:10px; 
+	 width: 13px;
+	padding: 10px;
+	background:#6a2500;
+	border-radius: 50%;
+	color:#fff;
+}
+
+
+/* column for thesmile html */
+.column1 {
+	float: left;
+	width: 40%;
+	padding: 10px;
+	height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  .column2 {
+	float: left;
+	width: 55%;
+	padding: 10px;
+	height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  .priceTag{
+	border-top: 3px double #999;
+	border-right: 3px double #999;
+	border-bottom: 3px double #999;
+	border-left: 3px double #999;
+	margin: 10px;
+	width: 200px;
+	border-radius: 5px;
+
+
+  }
+
+  .brownBox{
+	  background-color: #6a2500;
+	  padding: 10px 30px;
+	  color: #ffffff;
+	  border-radius: 5px;
+	  margin: 10px;
+  }

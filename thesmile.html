@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='decoration.css'>
+    <title>Euroflora</title>
+</head>
+<body>
+    <header>
+    
+        <div class="main-nav">
+            <img src="images/logo-small.png" height="55px" width="150px">
+            <div class="links">
+        <ul class="main-nav">
+            
+            <li><a href="index.html"  class="fa fa-home" style="font-size:18px;color:#6a2500"> HOME</a></li>
+            <li><a href="contact.html" class="fa fa-envelope" style="font-size:18px;color:#6a2500"> CONTACT US</a></li>
+            <li class="active"><a href="theflorist.html"  class="fa fa-envelope" style="font-size:18px;color:#6a2500"> THE FLORIST</a></li>
+            <li><a href="gallery.html" class="fa fa-camera" style="font-size:18px;color:#6a2500"> GALLERY</a></li>
+            <li><a href="order.html" class="fa fa-cogs" style="font-size:18px;color:#6a2500"> HOW TO ORDER</a></li>
+            <li><a href="orderbyphone.html" class="fa fa-phone" style="font-size:18px;color:#6a2500"> ORDER BY PHONE</a></li>
+            <li><a href="chat.html" class="fa fa-comment" style="font-size:18px;color:#6a2500"> CHAT</a></li>
+        </ul>
+            </div>
+        </div>
+    
+    </header>
+
+    <div class="row">
+        <div class="column1">
+            <img src="images/the smile.jpg" alt="">
+            <p>Price (delivery included)</p>
+            <hr>
+            <div style="width: 40%; float: left;">
+                <div class="priceTag"><input type="radio" name="price" value="standard">Standard 78.90 €</div>
+                <div class="priceTag"><input type="radio" name="price" value="deluxe">Deluxe 98.90 €</div>
+                <div class="priceTag"><input type="radio" name="price" value="Premium">Premium 118.90 €</div>
+            </div>
+            <div style="line-height: 36px;">
+                <i class="fa fa-info-circle" style="font-size:20px;color:#6a2500"></i><br>
+                <i class="fa fa-info-circle" style="font-size:20px;color:#6a2500"></i><br>
+                <i class="fa fa-info-circle" style="font-size:20px;color:#6a2500"></i><br>
+            </div>
+            
+       
+            <br>
+            <div class="brownBox" style="width: 250px;">Total 78.90 € (delivery included)</div>
+            <p>The Smile 78.90 €</p>
+        </div>
+
+        <div class="column2" >
+          <h2>The Smile</h2>
+          <p><b>Bouquet of roses and mixed seasonal flowers in vivid colors, decorated with greenery. Suitable
+          for every occasion. Conveys joy.</b></p>
+          <p>Seasonal Flowers or Plants may be changed if unavailable. However, we will try to stick to the type of the
+          chosen flowers as much as possible. The vase is not included. The picture usually referring the "Deluxe"
+          arrangement.
+          </p>
+          <hr>
+            
+          <form action="">
+             
+                  <div style="float: left; width: 40%; text-align: right;line-height: 35px; padding-right: 15px;">
+                    <label for="deleveryDate">Delivery date*</label><br>
+                    <label for="deleveryTime">Delivery Time</label><br>
+                    <br>
+                    <label for="quanity">Quanity*</label><br>
+                    <label for="message">Message</label><br>
+                   <a href="#">Out of ideas? Choose a message!</a><br><br>
+                    <label for="signature">Signature</label>
+                  </div>
+                  <div style="float: left; width: 55%; line-height: 35px;">
+                    <input type="date" name="deleveryDate"><br>              
+                    <input type="radio" name="deleveryTime" value="workingDays">working Day- Free(9 a.m - 9 p.m.) <i class="fa fa-info-circle" style="font-size:20px;color:#6a2500;"></i><br>
+                    <input type="radio" name="deleveryTime" value="nonworkingDays">Sunday and Public Holidays 4.00 € <i class="fa fa-info-circle" style="font-size:20px;color:#6a2500;"></i>              
+                    <input type="number" name="quanity">             
+                    <textarea name="message" id="" cols="50" rows="5"></textarea><br>               
+                    <input type="text" name="signature">
+                  </div>
+                      
+          </form>
+          
+          <div>Continue >></div>
+        </div>
+       
+      </div>
+     
+</body>
+</html>
